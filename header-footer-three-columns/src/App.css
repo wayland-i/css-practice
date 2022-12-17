@@ -1,5 +1,6 @@
 .header {
   background-color: red;
+  height: 15vh;
 }
 
 .container {
@@ -54,6 +55,7 @@
 
 .footer {
   background-color: blue;
+  height: 15vh;
 }
 
 ul {
