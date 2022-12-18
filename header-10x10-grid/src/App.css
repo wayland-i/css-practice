@@ -1,0 +1,38 @@
+* {
+  margin: 0px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.header {
+  background-color: royalblue;
+  height: 20vh;
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+}
+
+#title {
+  font-size: 5em;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+}
+
+li {
+  background-color: red;
+  border: solid 1px black;
+  width: fit-content;
+}
+
+.btn {
+  position: relative;
+  font-size: larger;
+  left: 50%;
+  transform: translate(-50%);
+}
