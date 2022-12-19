@@ -68,9 +68,10 @@ body {
 
 .wh-all {
   width: 70vw;
-  border-left: solid 1px white;
+  /* border-left: solid 1px white; */
   border-bottom: solid 1px white;
-  border-right: solid 1px white;
+  /* border-right: solid 1px white; */
+  margin-left: 12px;
 }
 
 .wh-bottom {
@@ -88,4 +89,9 @@ body {
 
 #wh-media {
   margin-left: 10%;
+}
+
+#all {
+  display: flex;
+
 }
