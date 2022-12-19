@@ -6,7 +6,7 @@ import { useState } from 'react';
 
 function App() {
 
-  const [tweets, setTweets] = useState(['tweet', 'tweet', 'tweet'])
+  const [tweets, setTweets] = useState([]);
 
   return (
     <div className='all'>

@@ -96,3 +96,39 @@ body {
   display: flex;
 
 }
+
+/* .tweets {
+  display: flex;
+  justify-content: space-between;
+  gap: 30%;
+  border-right: 1px solid white;
+  border-bottom: 1px solid white;
+  border-left: 1px solid white;
+  width: 40vw;
+} */
+
+.tweets {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  gap: 10%;
+}
+
+.tweets > img {
+  border-radius: 50%;
+  height: 60px;
+  width: 60px;
+  margin: 3%;
+}
+
+.tweet-header {
+  display: flex;
+  align-items: center;
+  margin-top: 10%;
+}
+
+.tweet-footer {
+  display: flex;
+  align-items: center;
+  margin-top: 10%;
+  gap: 10%;
+}
