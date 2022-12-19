@@ -5,10 +5,9 @@ function WhatsHappening({setTweets, tweets}) {
 
   const handleClick = (e) => {
     e.preventDefault();
-    e.target.value.reset();
     setTweets([...tweets, input]);
-    
-
+    document.getElementById('input').value = ''
+    setInput('')
   }
 
   const [input, setInput] = useState('')
