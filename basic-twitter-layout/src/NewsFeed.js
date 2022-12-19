@@ -1,8 +1,12 @@
 import React from 'react'
 
-function NewsFeed() {
+function NewsFeed({tweets}) {
+  
+  
   return (
-    <div>NewsFeed</div>
+    <div>
+
+    </div>
   )
 }
 

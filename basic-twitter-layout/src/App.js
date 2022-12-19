@@ -2,14 +2,18 @@ import './App.css';
 import Dashboard from './Dashboard';
 import NewsFeed from './NewsFeed';
 import WhatsHappening from './WhatsHappening';
+import { useState } from 'react';
 
 function App() {
+
+  const [tweets, setTweets] = useState(['tweet', 'tweet', 'tweet'])
+
   return (
     <div className='all'>
       <Dashboard/>
       <div className='main'>
-        <WhatsHappening />
-        <NewsFeed />
+        <WhatsHappening  setTweets={setTweets} tweets={tweets}/>
+        <NewsFeed tweets={tweets}/>
       </div>
     </div>
   );
