@@ -21,14 +21,17 @@ function BulbGroup() {
         } else {
             return null;
         }
+    }
 
+    const handleSwitch = () => {
+        setIsGroupOn((isGroupOn) => !isGroupOn);
     }
 
 
   return (
     <div>
-        <div>
-            <button>Switch</button>
+        <div className='groups'>
+            <button onClick={handleSwitch}>Switch</button>
             <button onClick={handleAddBulb}>Add Bulb</button>
             <button onClick={handleRemoveBulb}>Remove Bulb</button>
             <br />

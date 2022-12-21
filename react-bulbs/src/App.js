@@ -3,7 +3,7 @@ import BulbGroup from './BulbGroup';
 
 function App() {
   return (
-    <>
+    <div className='container'>
       <h1>Group 1</h1>
       <BulbGroup />
       
@@ -12,7 +12,7 @@ function App() {
       
       <h1>Group 3</h1>
       <BulbGroup />
-    </>
+    </div>
   );
 }
 

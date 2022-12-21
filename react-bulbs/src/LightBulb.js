@@ -1,9 +1,10 @@
-import React from 'react'
+import React from 'react';
+import { AiFillBulb, AiOutlineBulb } from "react-icons/ai";
 
-function LightBulb() {
+function LightBulb({ isOn }) {
   return (
-    <span>
-        <li>Bulb</li>
+    <span style={{ fontSize: '6em' }}>
+        {isOn ? <AiFillBulb style={{ color: 'burlywood'}}/> : <AiOutlineBulb />}
     </span>
   )
 }
