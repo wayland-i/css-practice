@@ -14,7 +14,7 @@ function ProjectList({ projects }) {
   
     return (
         <div>
-            <ul>{renderProjects(projects)}</ul>
+            <ul className='container'>{renderProjects(projects)}</ul>
         </div>
   )
 }
