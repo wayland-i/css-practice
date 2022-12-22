@@ -6,11 +6,11 @@ function ProjectForm() {
         <form>
             <h1>Add New Project</h1>
             <div>
-                <label for='name'>Name</label>
+                <label htmlFor='name'>Name</label>
                 <textarea id='name'></textarea>
             </div>
             <div>
-                <label for='about' type="text">About</label>
+                <label htmlFor='about' type="text">About</label>
                 <textarea id='about' style={{height: '6em'}}></textarea>
             </div>
             <div>

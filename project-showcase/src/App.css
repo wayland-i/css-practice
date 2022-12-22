@@ -30,7 +30,7 @@ button:hover {
 }
 
 .project-form {
-    display: flex;
+    /* display: flexbox; */
     border: 1px solid grey;
     flex-direction: column;
     align-items: center;
