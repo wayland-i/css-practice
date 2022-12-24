@@ -3,7 +3,7 @@ import Item from './Item';
 
 function Container() {
 
-    const [itemCount, setItemCount] = useState(1);
+    const [itemCount, setItemCount] = useState(0);
 
     const handleaddItem = () => {
         setItemCount(itemCount => itemCount + 1);

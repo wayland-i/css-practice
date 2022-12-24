@@ -4,10 +4,9 @@ import Container from './Container';
 
 function App() {
 
-  const [containerCount, setContainerCount] = useState(1)
+  const [containerCount, setContainerCount] = useState(0)
 
   const handleAddContainer = () => {
-    // const containers = document.getElementsByClassName('Containers')
     setContainerCount(containerCount => containerCount + 1);
   }
 
