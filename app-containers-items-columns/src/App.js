@@ -20,10 +20,9 @@ function App() {
   return (
     <div className="App">
       <button onClick={handleAddContainer}>Add Container</button>
-      {/* <ul className='Containers'>
+      <div className='containers'>
         {containers}
-      </ul> */}
-        {containers}
+      </div>
     </div>
   );
 }
