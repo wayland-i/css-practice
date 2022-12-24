@@ -4,7 +4,10 @@ import { AiFillBulb, AiOutlineBulb } from "react-icons/ai";
 function LightBulb({ isOn, isGroupOn, isOneOn, setIsOneOn }) {
 
   const singleBulbClicked = (e) => {
-    <LightBulb isOn={isGroupOn} isOneOn={isOneOn}/>
+    // <LightBulb isOn={isGroupOn} isOneOn={isOneOn}/>
+    console.log(e.target)
+    console.log(e.target)
+    setIsOneOn(isOneOn => !isOneOn)
   }
 
   return (

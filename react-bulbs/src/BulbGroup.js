@@ -9,6 +9,7 @@ function BulbGroup() {
     const bulbs = [];
     for (let i = 0; i < bulbCount; i++) {
         bulbs.push(<LightBulb isOn={isGroupOn} isOneOn={isOneOn} setIsOneOn={setIsOneOn}/>);
+        
     }
 
     const handleAddBulb = () => {
