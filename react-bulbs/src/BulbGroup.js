@@ -4,10 +4,11 @@ import LightBulb from './LightBulb';
 function BulbGroup() {
     const [bulbCount, setBulbCount] = useState(1);
     const [isGroupOn, setIsGroupOn] = useState(false);
+    const [isOneOn, setIsOneOn] = useState(false)
 
     const bulbs = [];
     for (let i = 0; i < bulbCount; i++) {
-        bulbs.push(<LightBulb isOn={isGroupOn} />);
+        bulbs.push(<LightBulb isOn={isGroupOn} isOneOn={isOneOn} setIsOneOn={setIsOneOn}/>);
     }
 
     const handleAddBulb = () => {

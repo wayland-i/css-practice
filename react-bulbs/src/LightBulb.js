@@ -1,10 +1,15 @@
 import React from 'react';
 import { AiFillBulb, AiOutlineBulb } from "react-icons/ai";
 
-function LightBulb({ isOn }) {
+function LightBulb({ isOn, isGroupOn, isOneOn, setIsOneOn }) {
+
+  const singleBulbClicked = (e) => {
+    <LightBulb isOn={isGroupOn} isOneOn={isOneOn}/>
+  }
+
   return (
     <span style={{ fontSize: '6em' }}>
-        {isOn ? <AiFillBulb style={{ color: 'burlywood'}}/> : <AiOutlineBulb />}
+        {isOn ? <AiFillBulb style={{ color: 'burlywood'}} onClick={singleBulbClicked}/> : <AiOutlineBulb onClick={singleBulbClicked}/>}
     </span>
   )
 }
