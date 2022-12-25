@@ -31,6 +31,12 @@
   width: 15vw;
   height: 70vh;
   background-color: pink;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  font-size: 3em;
+  align-items: center;
 }
 
 .pages {
