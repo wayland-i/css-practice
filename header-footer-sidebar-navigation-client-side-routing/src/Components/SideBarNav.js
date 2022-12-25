@@ -3,7 +3,7 @@ import { NavLink, Link } from "react-router-dom";
 
 function SideBarNav() {
   return (
-    <div>SideBarNav</div>
+    <div className='nav'>SideBarNav</div>
   )
 }
 
