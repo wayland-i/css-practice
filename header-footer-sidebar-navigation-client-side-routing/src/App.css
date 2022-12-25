@@ -42,5 +42,7 @@
 .pages {
   display: flex;
   justify-content: center;
+  align-items: center;
   font-size: xx-large;
+  height: 70vh;
 }
