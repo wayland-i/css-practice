@@ -6,10 +6,6 @@ function App() {
 
 const [products, setProducts] = useState([]);
 
-// fetch('https://dummyjson.com/products')
-// .then(res => res.json())
-// .then(data => setProducts(data))
-
 useEffect(() => {
   fetch('https://dummyjson.com/products')
   .then(res => res.json())

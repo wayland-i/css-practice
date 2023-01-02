@@ -14,8 +14,6 @@ function Container({ products }) {
     return (
     <div>
         <h1>Container</h1>
-        {/* {productsArr ? productLister(productsArr) : null} */}
-        {/* {productLister(productsArr)} */}
         {productsArr ? productLister(productsArr) : null}
     </div>
   )
