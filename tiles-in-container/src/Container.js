@@ -12,9 +12,11 @@ function Container({ products }) {
     }
     
     return (
-    <div>
+    <div className='Container'>
         <h1>Container</h1>
-        {productsArr ? productLister(productsArr) : null}
+        <div className='container'>
+            {productsArr ? productLister(productsArr) : null}
+        </div>
     </div>
   )
 }
