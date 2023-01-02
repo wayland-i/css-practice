@@ -10,6 +10,8 @@ function Container({ products }) {
          <Item key={product.id} {...product}></Item>
         )
     }
+
+    console.log(productsArr)
     
     return (
     <div className='Container'>
