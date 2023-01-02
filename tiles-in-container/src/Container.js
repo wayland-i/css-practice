@@ -5,7 +5,7 @@ function Container({ products }) {
 
     const productLister = (products) => {
         products.map((product) => {
-            return <li>{product.title}</li>
+            return <Product>{product}</Product>
         })
     }
   
