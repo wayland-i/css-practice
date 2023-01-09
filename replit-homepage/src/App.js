@@ -1,17 +1,24 @@
 import './App.css';
+import styled from "styled-components";
+import NavBar from './NavBar';
+import Header from './Header';
+import CodeEditor from './CodeEditor';
 
+const Main = styled.div`
+
+  & > * {
+    margin-bottom: 4%;
+  }
+
+`
 
 function App() {
   return (
-    <div className='App'>
-      <div className='div1'>
-        
-      </div>
-
-      <div className='div2'>
-
-      </div>
-    </div>
+    <Main>
+      <NavBar></NavBar>
+      <Header></Header>
+      <CodeEditor></CodeEditor>
+    </Main>
   );
 }
 
