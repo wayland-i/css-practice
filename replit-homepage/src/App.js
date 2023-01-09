@@ -6,32 +6,51 @@ const Red = styled.div`
   width: 100px;
   height: 100px;
 `
-const Red = styled.div`
-  background-color: red;
+const Blue = styled.div`
+  background-color: blue;
   width: 100px;
   height: 100px;
 `
-const Red = styled.div`
-  background-color: red;
+const Purple = styled.div`
+  background-color: purple;
   width: 100px;
   height: 100px;
 `
-const Red = styled.div`
-  background-color: red;
+const Green = styled.div`
+  background-color: green;
   width: 100px;
   height: 100px;
+`
+
+const MiniWrap = styled.div`
+    display: flex;
+    flex-direction: column;
+    margin: 0 50% 0 0;
+`
+
+const Wrap = styled.div`
+  display: flex;
+  width: 100%;
+  height: 100%;
+
 `
 
 
 function App() {
   return (
-    <div className="App">
-      <Red className='red' />
-      <div className='red' />
-      <div className='red' />
-      <div className='red' />
+    <Wrap>
 
-    </div>
+      <MiniWrap>
+        <Red className='red' />
+        <Blue className='red' />
+      </MiniWrap>
+
+      <MiniWrap>
+        <Purple className='red' />
+        <Green className='red' />
+      </MiniWrap>
+
+    </Wrap>
   );
 }
 
