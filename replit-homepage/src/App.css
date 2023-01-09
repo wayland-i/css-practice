@@ -5,3 +5,11 @@ div {
 button {
  font-size: 2.5rem;
 }
+
+textarea {
+  background-color: #5F677A;
+}
+
+select {
+  font-size: 2.5rem;
+}
