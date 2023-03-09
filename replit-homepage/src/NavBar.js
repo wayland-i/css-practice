@@ -19,7 +19,7 @@ function NavBar() {
   return (
     <Wrapper>
         <Bar>
-            <h1>replit</h1>
+            <h1 className='title'>replit</h1>
             <p>Features</p>
             <p>Blog</p>
             <p>Pricing</p>
