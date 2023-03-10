@@ -1,23 +1,21 @@
 import logo from './logo.svg';
 import './App.css';
+import { useState } from 'react';
 
 function App() {
+
+  const [tiles, setTiles] = useState(['one', 'two', 'three!'])
+
+  console.log(tiles.values)
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+    <div className='whole-container'>
+      <header>
+        <h1>Blue Tiles App</h1>
       </header>
+      <div className='tiles-container'>
+        {tiles.map((tile) => <div>{tile}</div>)}
+      </div>
     </div>
   );
 }
