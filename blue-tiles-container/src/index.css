@@ -11,3 +11,18 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.tiles-container {
+  display: flex;
+  
+  flex-direction: column;
+  
+
+}
+
+.tile {
+  background-color: blue;
+  height: 10%;
+  width: 10%;
+  margin-bottom: 5%;
+}

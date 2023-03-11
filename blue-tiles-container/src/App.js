@@ -14,7 +14,7 @@ function App() {
         <h1>Blue Tiles App</h1>
       </header>
       <div className='tiles-container'>
-        {tiles.map((tile) => <div>{tile}</div>)}
+        {tiles.map((tile) => <div className='tile'>{tile}</div>)}
       </div>
     </div>
   );
